@@ -18,4 +18,5 @@ It adds convolutions to the VAE's encoder.
         self.fc4 = nn.Linear(100, 784)
 
 
-Decoder is unaltered from the stock VAE's. 
+conv_VAE.py: encoder has convolutions. Decoder is fully connected
+convdeconv_VAE: encoder has convolutions. Decoder has a deconv architecture but not the same as encoder. Still experimenting.
