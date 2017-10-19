@@ -1,4 +1,7 @@
-Convolutional VAE with MNIST.
+Convolutional VAE with MNIST. Notes for convolutional are in the very excellent theano page
+
+http://deeplearning.net/software/theano/tutorial/conv_arithmetic.html
+
 
 Builds upon pytorch's vanilla mnist and vae examples 
 https://github.com/pytorch/examples/blob/master/mnist/main.py
@@ -20,3 +23,5 @@ It adds convolutions to the VAE's encoder.
 
 conv_VAE.py: encoder has convolutions. Decoder is fully connected
 convdeconv_VAE: encoder has convolutions. Decoder has a deconv architecture but not the same as encoder. Still experimenting.
+convdeconv_stride_VAE: This one has strided convolutions/deconvolutions instead of max pooling.
+
